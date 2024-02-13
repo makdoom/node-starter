@@ -34,6 +34,9 @@ devDependencies:
   eslint:
     specifier: ^8.56.0
     version: 8.56.0
+  husky:
+    specifier: ^9.0.10
+    version: 9.0.10
   ts-node-dev:
     specifier: ^2.0.0
     version: 2.0.0(@types/node@20.11.17)(typescript@5.3.3)
@@ -1070,6 +1073,12 @@ packages:
       statuses: 2.0.1
       toidentifier: 1.0.1
     dev: false
+
+  /husky@9.0.10:
+    resolution: {integrity: sha512-TQGNknoiy6bURzIO77pPRu+XHi6zI7T93rX+QnJsoYFf3xdjKOur+IlfqzJGMHIK/wXrLg+GsvMs8Op7vI2jVA==}
+    engines: {node: '>=18'}
+    hasBin: true
+    dev: true
 
   /iconv-lite@0.4.24:
     resolution: {integrity: sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==}
