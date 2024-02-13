@@ -6,8 +6,6 @@ const app = express();
 // Middlewares
 app.use(morgan('dev'));
 
-const nameTest = 'makdoom';
-
 app.get('/health-check', (req, res) => {
   return res.json({ success: true, message: 'OK' });
 });
